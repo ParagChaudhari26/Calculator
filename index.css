@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-image: url(./neon.jpeg);
+    background-size: cover;
+    border-image: fill; 
+}
+
+.parent{
+    height: 510px;
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    border: 8px solid wheat;
+
+    background: hsla(339, 100%, 55%, 1);
+
+background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
+
+    box-shadow: 20px 20px 80px rgb(0, 0, 0)
+}
+
+.ip{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 80px;
+    margin-top: 5px;
+    font-family:monospace;
+}
+
+#first{
+    height: 60px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#second{
+    height: 60px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+button{
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+
+    font-family:fantasy;
+
+}
+
+.operations{
+    display: grid;
+   grid-template-columns: 82px 82px 82px 82px;
+}
+
+#result{
+    font-size: 60px;
+    margin-top: 20px;
+
+    font-family:cursive;
+}
+
+button:hover{
+    background-color:rgb(251, 255, 0);
+    transform: scale(1.18,1.18);
+    border: 3px solid rgb(125, 6, 119);
+}
